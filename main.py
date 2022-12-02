@@ -33,4 +33,5 @@ for i in range(3):
     top_3_calories.append(max_calories)
     calories_totals.remove(max_calories)
 
+print(max(top_3_calories))
 print(sum(top_3_calories))
